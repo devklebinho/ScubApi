@@ -2,6 +2,8 @@
 
 Sistema de Cadastro de Usuários da Biblioteca (SCUB)
 
+---
+
 ## 📌 Descrição
 
 O SCUB.API é uma aplicação backend desenvolvida em .NET com o objetivo de gerenciar o cadastro de usuários de uma biblioteca.
@@ -14,10 +16,10 @@ Este sistema foi projetado para ser consumido por diferentes interfaces, como ap
 
 ## 🚀 Funcionalidades
 
-- Cadastro de usuários
-- Busca por nome e/ou CPF
-- Atualização de dados cadastrais
-- Remoção de usuários
+* Cadastro de usuários
+* Busca por nome e/ou CPF
+* Atualização de dados cadastrais
+* Remoção de usuários
 
 ---
 
@@ -25,40 +27,41 @@ Este sistema foi projetado para ser consumido por diferentes interfaces, como ap
 
 Cada usuário possui os seguintes dados:
 
-- Data e hora do cadastro
-- Nome completo
-- Telefone
-- CPF
-- Nome do responsável (opcional)
-- Nome da escola (opcional)
-- Data de nascimento
-- Endereço (rua)
-- Bairro
-- Cidade
+* Data e hora do cadastro
+* Nome completo
+* Telefone
+* CPF
+* Nome do responsável (opcional)
+* Nome da escola (opcional)
+* Data de nascimento
+* Endereço (rua)
+* Bairro
+* Cidade
 
 ---
 
 ## 🛠️ Tecnologias utilizadas
 
-- .NET (ASP.NET Core Web API)
-- C#
-- Entity Framework Core (em configuração)
-- Banco de dados (a definir)
+* .NET (ASP.NET Core Web API)
+* C#
+* Entity Framework Core
+* SQLite
 
 ---
 
 ## 📂 Estrutura do Projeto
 
 ```
-
 ScubApi/
 │
 ├── Controllers/
 ├── Models/
 │   └── Usuario.cs
+├── Data/
+│   └── AppDbContext.cs
+├── Migrations/
 ├── Program.cs
 └── ...
-
 ```
 
 ---
@@ -68,33 +71,44 @@ ScubApi/
 1. Clone o repositório:
 
 ```
-
 git clone <url-do-repositorio>
-
 ```
 
 2. Acesse a pasta do projeto:
 
 ```
-
 cd ScubApi
-
 ```
 
-3. Execute a aplicação:
+3. Execute as migrations para criar o banco de dados:
 
 ```
+dotnet ef database update
+```
 
+4. Execute a aplicação:
+
+```
 dotnet run
-
 ```
 
-4. Acesse o Swagger:
+5. Acesse o Swagger:
 
 ```
+https://localhost:xxxx/swagger
+```
 
-[https://localhost:xxxx/swagger](https://localhost:xxxx/swagger)
+---
 
+## 🗄️ Banco de Dados
+
+O projeto utiliza SQLite como banco de dados local.
+
+As migrations são responsáveis por criar e atualizar a estrutura do banco automaticamente.
+O arquivo do banco (`scub.db`) será gerado na raiz do projeto após a execução do comando:
+
+```
+dotnet ef database update
 ```
 
 ---
@@ -113,4 +127,4 @@ Este projeto está sendo desenvolvido com foco educacional e prática de conceit
 
 ## 👨‍💻 Autor
 
-[@devklebinho](https://linktr.ee/devklebinho)
+[@devklebinho](https://github.com/devklebinho)
