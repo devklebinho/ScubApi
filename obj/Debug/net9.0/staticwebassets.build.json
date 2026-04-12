@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "C7j6rjg7e4SrV3tDBWHsGKc1LK9/+htG027eWhxKXgg=",
+  "Source": "ScubApi",
+  "BasePath": "_content/ScubApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

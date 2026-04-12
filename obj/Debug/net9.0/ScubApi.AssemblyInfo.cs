@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ScubApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b8213ff6b7bbb421d552f1b316ebd2b67a8e75b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9633f5ce3cfe77b2386cb90559b23d7d813b8b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("ScubApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ScubApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
