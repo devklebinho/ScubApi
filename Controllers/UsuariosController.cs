@@ -14,5 +14,16 @@ namespace ScubApi.Controllers
         {
             _context = context;
         }
+
+        [HttpPost]
+        public IActionResult CriarUsuario([FromBody] Usuario usuario)
+        {
+            usuario.DataCadastro = DateTime.Now;
+
+            _context.Usuarios.Add(usuario);
+            _context.SaveChanges();
+
+            return CreatedAtAction(nameof(CriarUsuario), new { id = usuario.Id }, usuario);
+        }
     }
 }

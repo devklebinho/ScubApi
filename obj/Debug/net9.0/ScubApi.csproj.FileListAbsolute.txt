@@ -290,3 +290,6 @@
 /home/kleber/Documentos/ScubApi/obj/Debug/net9.0/ScubApi.pdb
 /home/kleber/Documentos/ScubApi/obj/Debug/net9.0/ScubApi.genruntimeconfig.cache
 /home/kleber/Documentos/ScubApi/obj/Debug/net9.0/ref/ScubApi.dll
+/home/kleber/Documentos/ScubApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/kleber/Documentos/ScubApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/kleber/Documentos/ScubApi/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
