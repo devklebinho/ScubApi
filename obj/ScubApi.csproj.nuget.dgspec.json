@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kleber/Documentos/scub-api/ScubApi/ScubApi.csproj": {}
+    "/home/kleber/Documentos/ScubApi/ScubApi.csproj": {}
   },
   "projects": {
-    "/home/kleber/Documentos/scub-api/ScubApi/ScubApi.csproj": {
+    "/home/kleber/Documentos/ScubApi/ScubApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kleber/Documentos/scub-api/ScubApi/ScubApi.csproj",
+        "projectUniqueName": "/home/kleber/Documentos/ScubApi/ScubApi.csproj",
         "projectName": "ScubApi",
-        "projectPath": "/home/kleber/Documentos/scub-api/ScubApi/ScubApi.csproj",
+        "projectPath": "/home/kleber/Documentos/ScubApi/ScubApi.csproj",
         "packagesPath": "/home/kleber/.nuget/packages/",
-        "outputPath": "/home/kleber/Documentos/scub-api/ScubApi/obj/",
+        "outputPath": "/home/kleber/Documentos/ScubApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kleber/.nuget/NuGet/NuGet.Config"
